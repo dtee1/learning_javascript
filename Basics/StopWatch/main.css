@@ -1,0 +1,36 @@
+:root {
+    --primary: navy;
+    --dark: gray;
+    --darker: black;
+    --light: white;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: var(--darker);
+    color: var(--light);
+}
+
+.watch {
+    text-align: center; 
+    background-color: dark;
+    width: 100%;
+    max-width: 500px;
+    margin: 5rem auto;
+    border-radius: 1rem;
+}
+
+.time {
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 1rem; 
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
